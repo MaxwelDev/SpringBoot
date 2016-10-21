@@ -7,6 +7,6 @@
 </head>
 <body>
     <h1>Hello World!</h1>
-    <button id="teste">Primeiro hghghjjhg</button>
+    <button id="teste">Primeiro</button>
 </body>
 </html>
