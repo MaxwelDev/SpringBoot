@@ -1,7 +1,15 @@
 package br.com.sistema.model;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+@Entity(name = "produto")
 public class Produto {
 
+	@Id
+	@GeneratedValue
+	private Long id;
 	private String descricao;
 	private int valor;
 	private int quantidade;
