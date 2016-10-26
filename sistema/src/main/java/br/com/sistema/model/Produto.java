@@ -10,9 +10,12 @@ public class Produto {
 	@Id
 	@GeneratedValue
 	private Long id;
+	
 	private String descricao;
+	
 	private int valor;
-	private int quantidade;
+	
+	private int codBarras;
 
 	public String getDescricao() {
 		return descricao;
@@ -30,12 +33,12 @@ public class Produto {
 		this.valor = valor;
 	}
 
-	public int getQuantidade() {
-		return quantidade;
+	public int getCodBarras() {
+		return codBarras;
 	}
 
-	public void setQuantidade(int quantidade) {
-		this.quantidade = quantidade;
+	public void setCodBarras(int quantidade) {
+		this.codBarras = quantidade;
 	}
 
 }

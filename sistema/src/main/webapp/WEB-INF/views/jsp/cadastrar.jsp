@@ -14,15 +14,15 @@
   <div class="form-group">
     <label for="inputEmail3" class="col-sm-2 control-label">Descrição</label>
     <div class="col-sm-10">
-      <input type="text" class="form-control" id="inputEmail3" placeholder="Descrição do produto"><br/>
+      <input name="descricao" type="text" class="form-control" id="inputEmail3" placeholder="Descrição do produto"><br/>
     </div>
     <label for="inputEmail3" class="col-sm-2 control-label">Código de barras</label>
     <div class="col-sm-10">
-      <input type="text" class="form-control" id="inputEmail3" placeholder="Código de barras"><br/>
+      <input type="text" name="codBarras" class="form-control" id="inputEmail3" placeholder="Código de barras"><br/>
     </div>
     <label for="inputEmail3" class="col-sm-2 control-label">Valor</label>
     <div class="col-sm-10">
-      <input type="text" class="form-control" id="inputEmail3" placeholder="Valor">
+      <input type="text" name="valor" class="form-control" id="inputEmail3" placeholder="Valor">
     </div>
   </div>
   
